@@ -1,7 +1,7 @@
-a:hover{
-    color: red;
+article p:first-child{
+    font-weight: bold;
 }
 
-#main-content:hover{
-    background: red;
+article p:last-child{
+    color: red;
 }
