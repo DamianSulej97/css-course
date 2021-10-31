@@ -1,9 +1,10 @@
-.static-width{
-    width: 300px;
-    height: 300px;
+#banner{
     background-color: #606060;
-    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/58CIvG6Whv49bsmRbqaEZ6/e42a73d8ddef6f9c126fa49d384be678/6.jpg?fit=fill&w=480&h=270);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 200px;
+    width: 100%;
+    height: 300px;
+    background-image:url(http://clipart-library.com/images_k/nike-transparent-logo/nike-transparent-logo-23.png),
+    url(https://www.cybertechnologies.com/wp-content/uploads/2009/12/banner-blank.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center, top left;
+    background-size: 300px, 100%
 }
