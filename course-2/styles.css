@@ -128,3 +128,31 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
+nav li a:hover {
+  text-decoration: underline;
+}
+.images li:hover {
+  position: relative;
+  top: -4px;
+}
+form input:focus {
+  border: 4px dashed #4b4b4b;
+  outline: none;
+}
+form input:valid {
+  border: 4px solid #71d300;
+}
+article p::first-line {
+  font-weight: bold;
+}
+section.join p::first-letter {
+  font-size: 1.5em;
+}
+p::selection {
+  background-color: red;
+  color: white;
+}
+p::after {
+  content: "...";
+}
